@@ -66,6 +66,7 @@ spec:
             - --store=dnssrv+_grpc._tcp.thanos-ruler.lma.svc.cluster.local
             - --store=prometheus-operated.lma.svc.cluster.local:10901
             - --store=67ef5a63-ce17-4b16-a007-fae06766677a-thanos-ep
+            - --store=c43f3004-ecf5-4497-ac8e-b094fdd48cb3-thanos-ep
           ports:
             - name: http
               containerPort: 10902
