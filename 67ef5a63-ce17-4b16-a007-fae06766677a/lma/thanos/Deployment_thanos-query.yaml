@@ -67,6 +67,7 @@ spec:
             - --store=prometheus-operated.lma.svc.cluster.local:10901
             - --store=c43f3004-ecf5-4497-ac8e-b094fdd48cb3-thanos-ep
             - --store=65408153-eb01-4611-92fc-479c81ad868a-thanos-ep
+            - --store=6ef0cdd0-4687-450f-8701-8dcced9e4397-thanos-ep
           ports:
             - name: http
               containerPort: 10902
